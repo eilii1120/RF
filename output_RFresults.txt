@@ -1,0 +1,52 @@
+=== Top Selected Features ===
+c("F_g__Lawsonella", "H_g__Micrococcus", "F_g__norank_f__Neisseriaceae", "F_g__Haemophilus", "H_g__norank_f__Neisseriaceae", "F_g__Staphylococcus", "F_g__Actinotignum", "F_g__Acinetobacter", "H_g__Actinotignum", "F_g__Kocuria", "F_g__Cutibacterium", "F_g__Streptococcus", "H_g__Finegoldia", "F_g__Micrococcus", "H_g__Deinococcus", "H_g__Arthrobacter", "H_g__Actinomyces", "H_g__Anaerococcus", "H_g__Varibaculum", "H_g__Dermabacter", "H_g__Kocuria", "H_g__Acinetobacter", "H_g__Bradyrhizobium", "F_g__Finegoldia", 
+"F_g__Corynebacterium", "F_g__Peptostreptococcus", "H_g__unclassified_o__Enterobacterales", "F_g__norank_f__Rhizobiaceae", "H_g__Rhodococcus", "H_g__Phyllobacterium", "F_g__Aerococcus", "F_g__Anaerococcus", "H_g__Aerococcus", "H_g__Gordonia")
+1:34
+
+
+=== Confusion Matrix ===
+c(5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+c(0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+c(0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+c(0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+c(0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+c(0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+c(0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0)
+c(0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0)
+c(0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0)
+c(0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0)
+c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0)
+c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0)
+c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 1, 0)
+c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 0)
+c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5)
+
+
+=== Multi-Class Summary ===
+Accuracy
+Kappa
+Mean_F1
+Mean_Sensitivity
+Mean_Specificity
+Mean_Pos_Pred_Value
+Mean_Neg_Pred_Value
+Mean_Precision
+Mean_Recall
+Mean_Detection_Rate
+Mean_Balanced_Accuracy
+0.973333333333333
+0.971428571428572
+0.973333333333333
+0.973333333333333
+0.998095238095238
+0.973333333333333
+0.998095238095238
+0.973333333333333
+0.973333333333333
+0.0648888888888889
+0.985714285714286
+
+
+=== Prediction Results ===
+c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 13, 15, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
