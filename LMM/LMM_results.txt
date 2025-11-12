@@ -1,0 +1,42 @@
+=== Model Summary ===
+
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: abundance ~ time + (1 | subject)
+   Data: data
+
+REML criterion at convergence: -195.9
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-1.9747 -0.3842 -0.0815  0.1826  3.2848 
+
+Random effects:
+ Groups   Name        Variance  Std.Dev.
+ subject  (Intercept) 0.0024230 0.04922 
+ Residual             0.0009684 0.03112 
+Number of obs: 60, groups:  subject, 15
+
+Fixed effects:
+             Estimate Std. Error        df t value Pr(>|t|)    
+(Intercept)  0.073069   0.014378 18.792696   5.082 6.84e-05 ***
+time        -0.001599   0.003593 44.000000  -0.445    0.658    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+     (Intr)
+time -0.375
+
+
+=== Time Coefficient ===
+
+         Estimate  Std. Error df    t value Pr(>|t|)
+time -0.001599325 0.003593298 44 -0.4450855  0.65844
+
+
+=== 95% Confidence Intervals (profile method) ===
+
+                   2.5 %      97.5 %
+(Intercept)  0.044361905 0.101775954
+time        -0.008714679 0.005516029
+
